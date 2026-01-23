@@ -6,13 +6,13 @@ int main (){
 // Factorial number 
 
 int n,fact = 1;
-printf("enter anypositive number : ");
-scanf("%d",n);
+printf("enter any positive number : ");
+scanf("%d",&n);
 
 for (int i = 1;i<=n;i++){
     fact = fact * i;
 }
-printf("%d\n",fact);
+printf("Factorial of number is %d\n",fact);
 
 
 
