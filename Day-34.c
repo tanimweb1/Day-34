@@ -43,10 +43,25 @@ power = pow(x,y);
 printf("Power is %d\n", power);
 
 
+
+
+
+// log,log10,sin,cos,tan,exp
+
+int n,results;
+printf("enter the number : ");
+scanf("%d",&n);
+results = exp(n);
+
+printf("exp%d = %d\n", n,results);
+
+
+
     
 
 
     return 0;
 }
+
 
 
