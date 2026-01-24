@@ -29,6 +29,24 @@ printf("%d\n",rot);
 
 
 
+
+
+// power in c
+
+int x,y,power;
+printf("Enter the number : ");
+scanf("%d",&x);
+printf("Enter the power : ");
+scanf("%d",&y);
+
+power = pow(x,y);
+printf("Power is %d\n", power);
+
+
+    
+
+
     return 0;
 }
+
 
