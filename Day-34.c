@@ -17,8 +17,18 @@ printf("Factorial of number is %d\n",fact);
 
 
 
+//  Maths in C
+
+int result = abs(-35);
+printf("%d\n",result);
+
+
+int rot = sqrt(49);
+printf("%d\n",rot);
+    
 
 
 
     return 0;
 }
+
