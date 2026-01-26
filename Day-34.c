@@ -80,10 +80,23 @@ printf("log10%d = %d\n", n,results);
 
 
 
+// check even or odd
+    int n;
+scanf("%d",&n);
+
+if(n%2==0){
+    printf("even");
+}
+
+else{
+    printf("Odd");
+}
+    
     
 
     return 0;
 }
+
 
 
 
