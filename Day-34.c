@@ -70,13 +70,6 @@ printf("log%d = %d\n", n,results);
     
 
 
-int n,results;
-printf("enter the number : ");
-scanf("%d",&n);
-results = log10(n);
-
-printf("log10%d = %d\n", n,results);
-
 
 
 
@@ -84,6 +77,7 @@ printf("log10%d = %d\n", n,results);
 
     return 0;
 }
+
 
 
 
