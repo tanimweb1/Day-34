@@ -92,10 +92,34 @@ else{
     printf("Odd");
 }
     
+
+
+
+// Write a program to input a number and check if it is positive, negative, or zero. 
+
+int n;
+scanf("%d",&n);
+
+if(n>0){
+    printf("Positive");
+}
+else if(n<0){
+    printf("Negative");
+}
+else{
+    printf("Zero");
+}
+
+
+
+
+
+
     
 
     return 0;
 }
+
 
 
 
