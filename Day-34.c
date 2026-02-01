@@ -115,10 +115,29 @@ else{
 
 
 
+//  Write a program to input three numbers and find the largest.
+
+int n,m,l;
+scanf("%d%d%d",&n,&m,&l);
+
+if(n>m && n>l){
+    printf("N is largeest");
+}
+else if(m>n && m>l){
+    printf("M is largest");
+}
+else{
+    printf("L is largest");
+}
+
+
+    
+
     
 
     return 0;
 }
+
 
 
 
