@@ -149,8 +149,24 @@ else{
 
     
 
+// Write a program to input a number and check if it is even or odd. 
+
+int n;
+scanf("%d",&n);
+
+if(n%2==0){
+    printf("Even");
+}
+else{
+    printf("odd");
+}
+
+
+
+    
     return 0;
 }
+
 
 
 
