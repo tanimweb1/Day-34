@@ -131,12 +131,27 @@ else{
 }
 
 
+
+
+
+// Write a program to input a year and check if it is a leap year or not. 
+
+int year;
+scanf("%d",&year);
+
+if(year%4==0){
+    printf("Leap year");
+}
+else{
+    printf("Not leap year");
+}
     
 
     
 
     return 0;
 }
+
 
 
 
